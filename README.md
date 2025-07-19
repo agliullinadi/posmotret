@@ -1,46 +1,38 @@
-# Getting Started with Create React App
+# Getting Started with Vite + React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Этот проект создан с помощью [Vite](https://vitejs.dev/) и React.
 
-## Available Scripts
+## Доступные команды
 
-In the project directory, you can run:
+В директории проекта вы можете выполнить:
 
-### `npm start`
+### `npm run dev`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Запускает приложение в режиме разработки.  
+Откройте [http://localhost:5173](http://localhost:5173) для просмотра в браузере.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Страница будет автоматически перезагружаться при изменениях в коде.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Создаёт production-сборку приложения в папке `dist`.  
+Vite оптимизирует и минифицирует ваш код для лучшей производительности.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm run preview`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Запускает локальный сервер для предпросмотра production-сборки из папки `dist`.
 
-### `npm run eject`
+### `npm test`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Запускает тесты (если настроены).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Структура проекта
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- `src/` — исходный код приложения
+- `public/` — статические файлы
+- `dist/` — production-сборка (создаётся после `npm run build`)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Подробнее
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Документация Vite](https://vitejs.dev/guide/)
+- [Документация React](https://reactjs.org/)

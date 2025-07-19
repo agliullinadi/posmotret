@@ -1,4 +1,3 @@
-import './App.css';
 import { ThemeSwitcher } from './features/themeSwitcher';
 
 function App() {
